@@ -117,3 +117,15 @@ fun ContactRow(
         )
     }
 }
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun DefaultPreview() {
+    Surface(
+        modifier = Modifier.fillMaxSize(), color = Color(0xFF073042)
+    ) {
+        BusinessCardTheme {
+            BusinessCard()
+        }
+    }
+}
