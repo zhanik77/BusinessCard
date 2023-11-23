@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BusinessCard</string>
+    <string name="my_name">Zhanbolat Zhanibek</string>
+    <string name="my_phone">87017103344</string>
+    <string name="my_title">This is title</string>
+    <string name="my_email">zhanbolat.zhanibek@gmail.com</string>
+</resources>
