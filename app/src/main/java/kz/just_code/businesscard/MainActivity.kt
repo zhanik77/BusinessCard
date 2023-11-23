@@ -77,7 +77,7 @@ fun BusinessCard() {
         Image(
             painter = image, contentDescription = null, Modifier.fillMaxWidth(0.3f)
         )
-        Text(text = stringResource(kz.just_code.businesscard.R.string.my_name), fontSize = 50.sp, color = Color.White)
+        Text(text = stringResource(kz.just_code.businesscard.R.string.my_name), fontSize = 30.sp, color = Color.White)
         Text(text = stringResource(kz.just_code.businesscard.R.string.my_title), fontSize = 25.sp, color = Green)
         Spacer(modifier = Modifier.padding(bottom = 200.dp))
         Divider(modifier = Modifier.fillMaxWidth(), color = Color(0xFF4F6C79))
@@ -88,7 +88,7 @@ fun BusinessCard() {
         )
         Divider(modifier = Modifier.fillMaxWidth(), color = Color(0xFF4F6C79))
         ContactRow(
-            text = stringResource(kz.just_code.businesscard.R.string.my_title), icon = Icons.Rounded.Share
+            text = stringResource(kz.just_code.businesscard.R.string.my_link), icon = Icons.Rounded.Share
         )
         Divider(modifier = Modifier.fillMaxWidth(), color = Color(0xFF4F6C79))
         ContactRow(
